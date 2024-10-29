@@ -53,8 +53,5 @@ re: fclean all
 norm:
 	@echo "Cheking the norminette"
 	@echo --
-	@norminette free_error.c ft_split.c get_next_line.c \
-	get_next_line_utils.c key_press.c map_print.c map_read.c map_tool.c move.c so_long.h \
-	dfs.c set_up.c name_check.c main.c
-
+	@norminette $(SRCS) $(FT_PRINTF_DIR) so_long.h \
 .PHONY: all clean fclean re
