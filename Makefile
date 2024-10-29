@@ -54,4 +54,5 @@ norm:
 	@echo "Cheking the norminette"
 	@echo --
 	@norminette $(SRCS) $(FT_PRINTF_DIR) so_long.h \
+	
 .PHONY: all clean fclean re
